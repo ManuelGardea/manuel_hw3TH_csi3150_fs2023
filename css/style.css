@@ -1,0 +1,59 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+
+.landingpage {
+    background: url("../assets/pexels-angel-valladares-17061348.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh; /* This will make your landing page fit the whole viewport */
+    min-height: 100vh; /* This will allow for scrolling when more content is added */
+}
+
+.landingpage img {
+    margin-bottom: -5%;
+    height: 200px;
+}
+
+
+
+
+.landingpage h1 {
+    font-size: 75pt;
+    color: green;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.landingpage h2 {
+    margin-top: -2.5%;
+    font-size: 55pt;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.bx-chevron-down {
+    font-size: 150px; /* Adjust size */
+    color: red; /* Adjust color */
+}
+
+.trip-list {
+    background: url("../assets/aerial-shot-beautiful-village-by-mountain-captured-machu-picchu-peru.jpg");
+    background-size: cover; /* This will make the image cover the entire .trip-list section */
+    background-repeat: no-repeat;
+    background-position: center center; /* Adjust this if needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 50vh; 
+    min-height: 50vh;   
+}
+
