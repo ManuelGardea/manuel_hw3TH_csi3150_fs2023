@@ -5,7 +5,7 @@ body {
 }
 
 .landingpage {
-    background: url("../assets/pexels-angel-valladares-17061348.jpg");
+    background: url("../assets/pexels-pixabay-415611.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -42,7 +42,7 @@ body {
 }
 
 .trip-list {
-    background: url("../assets/aerial-shot-beautiful-village-by-mountain-captured-machu-picchu-peru.jpg");
+    background: url("../assets/pexels-josé-luis-photographer-3680770.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -72,7 +72,7 @@ body {
 }
 
 .experience-content {
-    background: url("../assets/pexels-oscar-dominguez-13070748.jpg");
+    background: url("../assets/pexels-genaro-servín-763429.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -101,15 +101,15 @@ body {
 }
 
 .img1-container {
-    background-image: url("../assets/pexels-roger-ce-14517575.jpg");
+    background-image: url("../assets/pexels-raul-juarez-2388639.jpg");
 }
 
 .img2-container {
-    background-image: url("../assets/pexels-oscar-dominguez-13070748.jpg");
+    background-image: url("../assets/roman-lopez-cGOkS_UvttU-unsplash.jpg");
 }
 
 .img3-container {
-    background-image: url("../assets/pexels-angel-valladares-17061348.jpg");
+    background-image: url("../assets/alex-azabache-8L7mOETNgHA-unsplash.jpg");
 }
 
 .img1-container,
@@ -134,6 +134,9 @@ body {
     position: absolute;
     bottom: 70px;
     left: 10px;
+    color: orange;
+    font-size: 22px;
+    font-style: italic;
 }
 
 .img1-container i,
@@ -148,7 +151,7 @@ body {
 
 .read-more-button {
     margin-top: 20px; /* Add spacing below the images */
-    background-color: #008CBA; /* Blue */
+    background-color: orange; /* Blue */
     color: white;
     border: none;
     padding: 10px 20px;
@@ -162,7 +165,7 @@ body {
 }
 
 .more-info {
-    background: url("../assets/aerial-shot-beautiful-village-by-mountain-captured-machu-picchu-peru.jpg");
+    background: url("../assets/pexels-mauricio-borja-12259620.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -197,7 +200,7 @@ body {
 }
 /*Next section*/
 .circle-fact {
-    background: url("../assets/aerial-shot-beautiful-village-by-mountain-captured-machu-picchu-peru.jpg");
+    background: url("../assets/roberto-carlos-roman-don-_N6BAsuUqBc-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -232,7 +235,7 @@ body {
   }
 
   .review {
-    background: url("../assets/pexels-oscar-dominguez-13070748.jpg");
+    background: url("../assets/meg-pier-SL6_FsAHMlI-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -247,7 +250,7 @@ body {
   }
 
   .review-img {
-    margin-top: 10%;
+    margin-top: 2%;
     border-radius: 50%;
     height: 200px;
     width: 200px;
@@ -255,32 +258,56 @@ body {
   
   .review p {
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: orange;
+    color: white;
     border-radius: 10px;
     padding: 10px;
     max-width: 50%;
   }
   
-  #review h2 {
+  .review h2 {
     text-align: center;
+    font-size: 40px;
     color: white;
+    text-shadow: 4px 4px black;
   }
   /*Image Gallery */
   .img-gallery {
     display: flex;
     overflow: hidden;
     width: 100%;
-    max-height: 500px;
+    max-height: 600px;
+    position: relative;
   }
-
+  
   .img-gallery .gallery {
     width: 25%;
     object-fit: cover;
   }
+  
+  .img-gallery .chevron {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: orange;
+    border: none;
+    font-size: 5em;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .img-gallery .chevron.left {
+    left: 10px;
+  }
+  
+  .img-gallery .chevron.right {
+    right: 10px;
+  }
+  
 
   /* Contact */
   .contact {
-    background: url("../assets/aerial-shot-beautiful-village-by-mountain-captured-machu-picchu-peru.jpg");
+    background: url("../assets/pexels-luis-ariza-13607795.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
